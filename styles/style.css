@@ -65,9 +65,11 @@ ol {
 }
 
 .content__list-container {
-  height: 399px;
+  height: 298px;
   overflow: auto;
-  min-height: 0;
+  position: relative;
+  margin-top: 24px;
+  padding-top: 2px; /* Вместо margin-top: 26px; -- для корректного отображения (верхней части) обводки первой карточки при :focus-visible */
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -105,19 +107,12 @@ ol {
   display: block;
   width: 259px;
   height: 210px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   font-family: "Oswald", Impact; 
   font-size: 75px; 
   font-weight: 700; 
   line-height: 95%; 
   color: #fff;
-}
-
-.content__list-container {
-  height: 298px;
-  position: relative;
-  margin-top: 24px;
-  padding-top: 2px; /* Вместо margin-top: 26px; -- для корректного отображения (верхней части) обводки первой карточки при :focus-visible */
 }
 
 .content__list {
