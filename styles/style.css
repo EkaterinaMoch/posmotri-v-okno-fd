@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -79,7 +79,7 @@ ol {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .content__details {
@@ -106,10 +106,10 @@ ol {
   width: 259px;
   height: 210px;
   text-transform: uppercase;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
+  font-family: "Oswald", Impact; 
+  font-size: 75px; 
+  font-weight: 700; 
+  line-height: 95%; 
   color: #fff;
 }
 
@@ -134,7 +134,7 @@ ol {
 .content__video-card-thumbnail {
   height: 103px;
   min-width: 194px;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: center;
 }
 
@@ -144,7 +144,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -154,14 +154,6 @@ ol {
 
 .search-form__fieldset:nth-of-type(2) .search-form__fieldset-title {
   padding-left: 40px;
-}
-
-.title {
-  font-family: 'Oswald', Impact;
-  font-size: 75px;
-  font-weight: 700;
-  line-height: 95%;
-  color: #fff;
 }
 
 .title .content__accent {
@@ -179,7 +171,7 @@ ol {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-family: 'Oswald', Impact;
+  font-family: "Oswald", Impact;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
@@ -188,7 +180,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
@@ -229,19 +221,18 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   background-color: transparent;
-  font-family: inherit; 
+  font-family: inherit;
   color: #fff;
   font-size: inherit;
   appearance: none;
 }
 
 .search-form__textfield::placeholder {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   color: rgb(255 255 255 / 0.7);
-
 }
 
 .search-form__label:focus {
@@ -270,7 +261,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: '';
+  content: "";
   display: block;
   background-color: #fff;
   width: 100%;
@@ -289,7 +280,7 @@ ol {
 .button {
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
@@ -349,4 +340,3 @@ ol {
 .content__list-item {
   padding: 0 3px;
 }
-
